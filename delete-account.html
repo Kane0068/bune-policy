@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hesap Silme - BuNe</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: #1a1a1a;
+            color: #fff;
+            line-height: 1.8;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #1e1e1e;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+        }
+        h1 {
+            font-size: 32px;
+            margin-bottom: 10px;
+            color: #bb86fc;
+        }
+        h2 {
+            font-size: 24px;
+            margin-top: 40px;
+            margin-bottom: 15px;
+            color: #667eea;
+        }
+        h3 {
+            font-size: 18px;
+            margin-top: 25px;
+            margin-bottom: 10px;
+            color: #bb86fc;
+        }
+        p {
+            margin-bottom: 15px;
+            color: #ccc;
+        }
+        ul, ol {
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+        li {
+            margin-bottom: 10px;
+            color: #ccc;
+        }
+        a {
+            color: #667eea;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .warning-box {
+            background: #ff6b6b20;
+            border-left: 4px solid #ff6b6b;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+        .warning-box strong {
+            color: #ff6b6b;
+        }
+        .info-box {
+            background: #4ecdc420;
+            border-left: 4px solid #4ecdc4;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+        .step-box {
+            background: #667eea20;
+            border-left: 4px solid #667eea;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+        .last-updated {
+            color: #888;
+            font-size: 14px;
+            margin-bottom: 30px;
+        }
+        .footer {
+            margin-top: 60px;
+            padding-top: 20px;
+            border-top: 1px solid #333;
+            color: #888;
+            font-size: 14px;
+        }
+        strong {
+            color: #fff;
+        }
+        .email-link {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            padding: 12px 24px;
+            border-radius: 8px;
+            margin-top: 10px;
+            text-decoration: none;
+        }
+        .email-link:hover {
+            background: #764ba2;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Hesap Silme</h1>
+        <p class="last-updated">Son Güncelleme: 4 Ocak 2025</p>
+
+        <p>BuNe uygulamasındaki hesabınızı ve tüm verilerinizi silmek istiyorsanız, aşağıdaki yöntemlerden birini kullanabilirsiniz.</p>
+
+        <div class="warning-box">
+            <strong>⚠️ ÖNEMLİ UYARI:</strong>
+            <p>Hesabınızı sildiğinizde aşağıdaki tüm verileriniz kalıcı olarak silinecektir ve bu işlem <strong>geri alınamaz</strong>:</p>
+            <ul>
+                <li>Hesap bilgileriniz (e-posta, kullanıcı adı, profil fotoğrafı)</li>
+                <li>Tüm tarama geçmişiniz</li>
+                <li>Premium abonelik bilgileriniz</li>
+                <li>Uygulama içi tercihleriniz</li>
+                <li>İstatistikleriniz</li>
+            </ul>
+        </div>
+
+        <h2>Hesap Silme Yöntemleri</h2>
+
+        <h3>Yöntem 1: Uygulama İçinden Silme (Önerilen)</h3>
+        <div class="step-box">
+            <ol>
+                <li>BuNe uygulamasını açın</li>
+                <li>Sağ üst köşedeki profil ikonuna tıklayın</li>
+                <li>Profil sayfasında en alta kaydırın</li>
+                <li><strong>"Tehlikeli Bölge"</strong> altındaki <strong>"Hesabı Sil"</strong> butonuna tıklayın</li>
+                <li>Onay mesajını okuyun ve onaylayın</li>
+                <li>Hesabınız ve tüm verileriniz kalıcı olarak silinecektir</li>
+            </ol>
+        </div>
+
+        <h3>Yöntem 2: E-posta ile Silme</h3>
+        <p>Eğer uygulamaya erişemiyorsanız, hesabınızı e-posta ile silebilirsiniz:</p>
+        <div class="info-box">
+            <p><strong>Adımlar:</strong></p>
+            <ol>
+                <li>Aşağıdaki e-posta adresine bir e-posta gönderin: <strong>privacy@bunedir.app</strong></li>
+                <li>E-posta konusu: <strong>"Hesap Silme Talebi"</strong></li>
+                <li>E-posta içeriğinde şunları belirtin:
+                    <ul>
+                        <li>Hesabınızla ilişkili e-posta adresi</li>
+                        <li>Kullanıcı adınız (varsa)</li>
+                        <li>Hesabınızı silmek istediğinizi onaylayın</li>
+                    </ul>
+                </li>
+                <li>E-postanızı gönderdikten sonra, 7 iş günü içinde hesabınız ve tüm verileriniz silinecektir</li>
+            </ol>
+        </div>
+
+        <a href="mailto:privacy@bunedir.app?subject=Hesap Silme Talebi" class="email-link">
+            📧 E-posta Gönder
+        </a>
+
+        <h2>Silinen Veriler</h2>
+        <p>Hesabınız silindiğinde aşağıdaki veriler kalıcı olarak silinir:</p>
+        <ul>
+            <li><strong>Firebase Authentication:</strong> Giriş bilgileriniz ve kimlik doğrulama verileriniz</li>
+            <li><strong>Firestore Database:</strong> Profil bilgileriniz, tarama geçmişiniz, istatistikleriniz</li>
+            <li><strong>Firebase Storage:</strong> Yüklediğiniz profil fotoğrafları ve görüntüler</li>
+            <li><strong>Analytics:</strong> Kişisel olarak tanımlanabilir analitik veriler</li>
+        </ul>
+
+        <div class="info-box">
+            <p><strong>Not:</strong> Anonim ve toplu analitik veriler (kullanıcı kimliği olmadan) korunabilir. Bu veriler kişisel olarak tanımlanamaz ve uygulama geliştirme amaçlı kullanılır.</p>
+        </div>
+
+        <h2>Premium Abonelik</h2>
+        <p>Eğer aktif bir premium aboneliğiniz varsa:</p>
+        <ul>
+            <li>Hesabınızı silmeden önce aboneliğinizi iptal etmeniz önerilir</li>
+            <li>Hesap silme işlemi aboneliğinizi otomatik olarak iptal eder</li>
+            <li>İade talepleri için <a href="mailto:privacy@bunedir.app">privacy@bunedir.app</a> adresine başvurabilirsiniz</li>
+        </ul>
+
+        <h2>Veri Silme Süresi</h2>
+        <p>Hesap silme talebiniz işleme alındıktan sonra:</p>
+        <ul>
+            <li><strong>Uygulama içinden silme:</strong> Anında silinir</li>
+            <li><strong>E-posta ile silme:</strong> En geç 7 iş günü içinde silinir</li>
+        </ul>
+
+        <h2>Geri Alma</h2>
+        <div class="warning-box">
+            <p><strong>Hesap silme işlemi geri alınamaz.</strong> Hesabınızı sildikten sonra:</p>
+            <ul>
+                <li>Verilerinizi geri getiremeyiz</li>
+                <li>Yeni bir hesap oluşturmanız gerekir</li>
+                <li>Önceki tarama geçmişinize erişemezsiniz</li>
+            </ul>
+        </div>
+
+        <h2>Veri İndirme (GDPR/KVKK Hakkı)</h2>
+        <p>Hesabınızı silmeden önce verilerinizin bir kopyasını almak isterseniz:</p>
+        <ol>
+            <li><a href="mailto:privacy@bunedir.app?subject=Veri İndirme Talebi">privacy@bunedir.app</a> adresine e-posta gönderin</li>
+            <li>Konu: <strong>"Veri İndirme Talebi"</strong></li>
+            <li>E-posta içeriğinde hesabınızla ilişkili e-posta adresini belirtin</li>
+            <li>30 gün içinde verileriniz JSON formatında size gönderilecektir</li>
+        </ol>
+
+        <h2>İletişim</h2>
+        <p>Hesap silme işlemi hakkında sorularınız varsa:</p>
+        <ul>
+            <li>E-posta: <a href="mailto:privacy@bunedir.app">privacy@bunedir.app</a></li>
+            <li>Yanıt süresi: 7 iş günü içinde</li>
+        </ul>
+
+        <h2>Yasal Haklarınız</h2>
+        <p>KVKK (Kişisel Verilerin Korunması Kanunu) ve GDPR (General Data Protection Regulation) kapsamında:</p>
+        <ul>
+            <li>Kişisel verilerinizin silinmesini talep etme hakkınız vardır</li>
+            <li>Verilerinizin bir kopyasını alma hakkınız vardır</li>
+            <li>Veri işleme faaliyetlerine itiraz etme hakkınız vardır</li>
+            <li>Verilerinizin düzeltilmesini talep etme hakkınız vardır</li>
+        </ul>
+
+        <div class="footer">
+            <p>Bu sayfa, Google Play Store politikaları ve GDPR/KVKK gerekliliklerine uygun olarak hazırlanmıştır.</p>
+            <p style="margin-top: 10px;">
+                <a href="privacy-policy.html">Gizlilik Politikası</a> | 
+                <a href="mailto:privacy@bunedir.app">İletişim</a>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
+
